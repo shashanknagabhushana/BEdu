@@ -1,0 +1,1 @@
+venv/\n.env\n__pycache__/\n*.log\n*.sqlite3\nfirebase/firebase_config.json\nnode_modules/
