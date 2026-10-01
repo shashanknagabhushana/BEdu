@@ -3,6 +3,7 @@
 **BEdu (Bachelors Education)** is a student-focused career preparation 
 platform designed to help graduating students **learn skills, practice 
 assessments, and discover career opportunities** in one place.
+Live Demo link: https://shashanknagabhushana.github.io/BEdu/
 
 > **Learn → Practice → Explore → Grow**
 
