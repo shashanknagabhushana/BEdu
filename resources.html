@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Resources | BEdu</title>
+
+    <link
+        rel="stylesheet"
+        href="css/resources.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div>
+
+            <a href="index.html" class="logo">
+                <span>B</span>Edu
+            </a>
+
+
+            <nav class="sidebar-nav">
+
+                <a href="dashboard.html" class="nav-item">
+                    <span>⌂</span>
+                    Dashboard
+                </a>
+
+                <a href="resources.html" class="nav-item active">
+                    <span>▣</span>
+                    Resources
+                </a>
+
+                <a href="assessments.html" class="nav-item">
+                    <span>✓</span>
+                    Assessments
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span>↗</span>
+                    Opportunities
+                </a>
+
+                <a href="profile.html" class="nav-item">
+                    <span>○</span>
+                    Profile
+                </a>
+
+            </nav>
+
+        </div>
+
+
+        <a href="index.html" class="logout">
+            ← Logout
+        </a>
+
+    </aside>
+
+
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+            <div class="mobile-menu">
+                ☰
+            </div>
+
+            <div>
+                <strong>
+                    Learning Resources
+                </strong>
+            </div>
+
+
+            <a href="profile.html" class="user">
+
+                <div class="avatar">
+                    S
+                </div>
+
+                <div class="user-name">
+                    <strong>Shashank</strong>
+                    <small>Student</small>
+                </div>
+
+            </a>
+
+        </header>
+
+
+
+        <!-- PAGE -->
+
+        <div class="page-container">
+
+
+            <!-- PAGE HEADER -->
+
+            <section class="page-header">
+
+                <div>
+
+                    <span>
+                        LEARN & GROW
+                    </span>
+
+                    <h1>
+                        Learning Resources
+                    </h1>
+
+                    <p>
+                        Build the skills you need for your
+                        next career opportunity.
+                    </p>
+
+                </div>
+
+
+                <div class="search-box">
+
+                    <span>⌕</span>
+
+                    <input
+                        type="text"
+                        id="resourceSearch"
+                        placeholder="Search resources..."
+                    >
+
+                </div>
+
+            </section>
+
+
+
+            <!-- CATEGORIES -->
+
+            <section class="categories">
+
+                <button
+                    class="category active"
+                    data-category="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="category"
+                    data-category="programming"
+                >
+                    Programming
+                </button>
+
+                <button
+                    class="category"
+                    data-category="database"
+                >
+                    Database
+                </button>
+
+                <button
+                    class="category"
+                    data-category="aptitude"
+                >
+                    Aptitude
+                </button>
+
+                <button
+                    class="category"
+                    data-category="interview"
+                >
+                    Interview
+                </button>
+
+                <button
+                    class="category"
+                    data-category="career"
+                >
+                    Career
+                </button>
+
+            </section>
+
+
+
+            <!-- RESOURCE GRID -->
+
+            <section
+                class="resource-grid"
+                id="resourceGrid"
+            >
+
+
+                <!-- JAVA -->
+
+                <article
+                    class="resource-card"
+                    data-category="programming"
+                    data-title="Java Fundamentals"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon java">
+                            J
+                        </div>
+
+                        <span class="level beginner">
+                            Beginner
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            PROGRAMMING
+                        </span>
+
+                        <h2>
+                            Java Fundamentals
+                        </h2>
+
+                        <p>
+                            Learn Java basics including variables,
+                            data types, operators, conditions,
+                            loops, arrays, and methods.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                12 Topics
+                            </span>
+
+                            <span>
+                                4 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="Java Fundamentals"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+                <!-- SQL -->
+
+                <article
+                    class="resource-card"
+                    data-category="database"
+                    data-title="SQL Fundamentals"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon sql">
+                            S
+                        </div>
+
+                        <span class="level beginner">
+                            Beginner
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            DATABASE
+                        </span>
+
+                        <h2>
+                            SQL Fundamentals
+                        </h2>
+
+                        <p>
+                            Learn SQL queries, filtering, sorting,
+                            joins, grouping, subqueries, and
+                            database concepts.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                14 Topics
+                            </span>
+
+                            <span>
+                                5 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="SQL Fundamentals"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+                <!-- C++ -->
+
+                <article
+                    class="resource-card"
+                    data-category="programming"
+                    data-title="C++ Basics"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon cpp">
+                            C++
+                        </div>
+
+                        <span class="level beginner">
+                            Beginner
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            PROGRAMMING
+                        </span>
+
+                        <h2>
+                            C++ Basics
+                        </h2>
+
+                        <p>
+                            Understand C++ syntax, variables,
+                            functions, arrays, pointers,
+                            classes, and object-oriented concepts.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                10 Topics
+                            </span>
+
+                            <span>
+                                4 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="C++ Basics"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+                <!-- APTITUDE -->
+
+                <article
+                    class="resource-card"
+                    data-category="aptitude"
+                    data-title="Quantitative Aptitude"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon aptitude">
+                            %
+                        </div>
+
+                        <span class="level intermediate">
+                            Intermediate
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            APTITUDE
+                        </span>
+
+                        <h2>
+                            Quantitative Aptitude
+                        </h2>
+
+                        <p>
+                            Practice percentages, ratios, averages,
+                            profit and loss, time and work,
+                            probability, and number systems.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                18 Topics
+                            </span>
+
+                            <span>
+                                7 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="Quantitative Aptitude"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+                <!-- INTERVIEW -->
+
+                <article
+                    class="resource-card"
+                    data-category="interview"
+                    data-title="Technical Interview Preparation"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon interview">
+                            ?
+                        </div>
+
+                        <span class="level intermediate">
+                            Intermediate
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            INTERVIEW
+                        </span>
+
+                        <h2>
+                            Technical Interview Preparation
+                        </h2>
+
+                        <p>
+                            Prepare for common technical questions
+                            covering programming, OOP, DBMS, OS,
+                            networking, and projects.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                20 Topics
+                            </span>
+
+                            <span>
+                                6 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="Technical Interview Preparation"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+                <!-- CAREER -->
+
+                <article
+                    class="resource-card"
+                    data-category="career"
+                    data-title="Resume and Career Preparation"
+                >
+
+                    <div class="resource-top">
+
+                        <div class="resource-icon career">
+                            ↗
+                        </div>
+
+                        <span class="level beginner">
+                            Beginner
+                        </span>
+
+                    </div>
+
+
+                    <div class="resource-content">
+
+                        <span class="resource-category">
+                            CAREER
+                        </span>
+
+                        <h2>
+                            Resume & Career Preparation
+                        </h2>
+
+                        <p>
+                            Learn how to prepare a professional
+                            resume, build your profile, and
+                            approach entry-level opportunities.
+                        </p>
+
+                        <div class="resource-meta">
+
+                            <span>
+                                8 Topics
+                            </span>
+
+                            <span>
+                                3 Hours
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        class="resource-btn"
+                        data-resource="Resume & Career Preparation"
+                    >
+                        Start Learning →
+                    </button>
+
+                </article>
+
+
+
+            </section>
+
+
+
+            <!-- EMPTY STATE -->
+
+            <div
+                class="empty-state"
+                id="emptyState"
+            >
+
+                <div>
+                    ⌕
+                </div>
+
+                <h2>
+                    No resources found
+                </h2>
+
+                <p>
+                    Try a different search term or category.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <script src="js/resources.js"></script>
+
+</body>
+
+</html>
